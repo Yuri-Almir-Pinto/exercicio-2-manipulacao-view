@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/standard_page_margin"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/label_nome"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@color/label_primary"
+        android:textColor="@color/font_primary"
+        android:padding="@dimen/input_around_margin"
+        android:paddingStart="@dimen/input_horizontal_margin"
+        android:paddingEnd="@dimen/input_horizontal_margin"/>
+
+    <EditText
+        android:id="@+id/editTextNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="@string/input_hint_nome"
+        android:autofillHints="name"
+        android:minHeight="@dimen/input_min_height"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/label_sexo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@color/label_primary"
+        android:textColor="@color/font_primary"
+        android:padding="@dimen/input_around_margin"
+        android:paddingStart="@dimen/input_horizontal_margin"
+        android:paddingEnd="@dimen/input_horizontal_margin"/>
+
+    <RadioGroup
+        android:id="@+id/radioGroupSexo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radioOptionMasculino"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/radio_masculino"
+            android:layout_marginEnd="@dimen/radioOption_not_final_margin"/>
+
+        <RadioButton
+            android:id="@+id/radioOptionFeminino"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/radio_feminino"/>
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/label_email"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@color/label_primary"
+        android:textColor="@color/font_primary"
+        android:padding="@dimen/input_around_margin"
+        android:paddingStart="@dimen/input_horizontal_margin"
+        android:paddingEnd="@dimen/input_horizontal_margin"/>
+
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:hint="@string/input_hint_email"
+        android:autofillHints="emailAddress"
+        android:minHeight="@dimen/input_min_height"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/label_telefone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@color/label_primary"
+        android:textColor="@color/font_primary"
+        android:padding="@dimen/input_around_margin"
+        android:paddingStart="@dimen/input_horizontal_margin"
+        android:paddingEnd="@dimen/input_horizontal_margin"/>
+
+    <EditText
+        android:id="@+id/editTextTelefone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="phone"
+        android:hint="@string/input_hint_telefone"
+        android:autofillHints="emailAddress"
+        android:minHeight="@dimen/input_min_height"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/label_preferencias"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@color/label_primary"
+        android:textColor="@color/font_primary"
+        android:padding="@dimen/input_around_margin"
+        android:paddingStart="@dimen/input_horizontal_margin"
+        android:paddingEnd="@dimen/input_horizontal_margin"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/checkboxMusica"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/checkbox_musica"/>
+
+        <CheckBox
+            android:id="@+id/checkboxCinema"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/checkbox_cinema"/>
+
+        <CheckBox
+            android:id="@+id/checkboxEsportes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/checkbox_esporte"/>
+
+        <CheckBox
+            android:id="@+id/checkboxGastronomia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/checkbox_gastronomia"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/label_notificacoes_sn"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@color/label_primary"
+        android:textColor="@color/font_primary"
+        android:padding="@dimen/input_around_margin"
+        android:paddingStart="@dimen/input_horizontal_margin"
+        android:paddingEnd="@dimen/input_horizontal_margin"/>
+
+    <Switch
+        android:id="@+id/switchNotificacoes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/switch_min_size"
+        android:minWidth="@dimen/switch_min_size"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button_exibir"
+            android:layout_weight="1"
+            android:layout_margin="@dimen/buton_around_margin"
+            style="?android:attr/buttonBarButtonStyle" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button_limpar"
+            android:layout_weight="1"
+            android:layout_margin="@dimen/buton_around_margin"
+            style="?android:attr/buttonBarButtonStyle" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

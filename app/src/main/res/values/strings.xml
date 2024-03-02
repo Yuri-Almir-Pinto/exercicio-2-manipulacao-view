@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Exercício - Interfaces Gráficas com Layouts e Views</string>
+
+    <!-- Label Region -->
+    <string name="label_nome">Nome:</string>
+    <string name="label_sexo">Sexo:</string>
+    <string name="label_email">Email:</string>
+    <string name="label_telefone">Telefone:</string>
+    <string name="label_preferencias">Preferências:</string>
+    <string name="label_notificacoes_sn">Ativar Notificações:</string>
+
+    <!-- Input Region -->
+    <string name="input_hint_nome">Nome</string>
+    <string name="input_hint_email">Email</string>
+    <string name="input_hint_telefone">Telefone</string>
+
+    <!-- Radio Region -->
+    <string name="radio_masculino">Masculino</string>
+    <string name="radio_feminino">Feminino</string>
+
+    <!-- Checkbox Region-->
+    <string name="checkbox_musica">Música</string>
+    <string name="checkbox_cinema">Cinema</string>
+    <string name="checkbox_esporte">Esporte</string>
+    <string name="checkbox_gastronomia">Gastronomia</string>
+
+    <!-- Button Region-->
+    <string name="button_exibir">Exibir</string>
+    <string name="button_limpar">Limpar</string>
+
+</resources>

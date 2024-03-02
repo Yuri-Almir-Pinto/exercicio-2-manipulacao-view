@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Margins Region -->
+        <!-- Page Region -->
+        <dimen name="standard_page_margin">16sp</dimen>
+
+        <!-- Input Region -->
+        <dimen name="input_horizontal_margin">8sp</dimen>
+        <dimen name="input_around_margin">3sp</dimen>
+        <dimen name="input_min_height">52sp</dimen>
+
+        <!-- Radio Region -->
+        <dimen name="radioOption_not_final_margin">12sp</dimen>
+
+        <!-- Button Region-->
+        <dimen name="buton_around_margin">30sp</dimen>
+
+        <!-- Switch Region -->
+        <dimen name="switch_min_size">50sp</dimen>
+</resources>
