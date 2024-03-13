@@ -2,9 +2,14 @@ plugins {
     id("com.android.application")
 }
 
+
 android {
     namespace = "com.example.exerccio_interfacesgrficascomlayoutseviews"
     compileSdk = 34
+
+    buildFeatures {
+        viewBinding = true
+    }
 
     defaultConfig {
         applicationId = "com.example.exerccio_interfacesgrficascomlayoutseviews"

@@ -185,6 +185,7 @@
         android:orientation="horizontal">
 
         <Button
+            android:id="@+id/buttonExibir"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/button_exibir"
@@ -193,12 +194,56 @@
             style="?android:attr/buttonBarButtonStyle" />
 
         <Button
+            android:id="@+id/buttonLimpar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/button_limpar"
             android:layout_weight="1"
             android:layout_margin="@dimen/buton_around_margin"
             style="?android:attr/buttonBarButtonStyle" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutExibicaoDados"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/labelExibirNome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/labelExibirEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/labelExibirTelefone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/labelExibirSexo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/labelExibirPreferencias"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/labelExibirNotificacoes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+
+
+
 
     </LinearLayout>
 
